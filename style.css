@@ -1,13 +1,16 @@
 .heading{
     margin-left: 620px;
     font-size: 40px;
+    margin-bottom: -1px;
 
 }
 #powered{
-    margin-left: 750px;
+    margin-left: 700px;
+    margin-top: 2px;
+    color: #686868;
 }
-.container span{
-    color: blue;
+.container h6 span{
+    color: #00994d
 }
 .navbar{
     width: 100%;
@@ -133,12 +136,11 @@
     
     
 }
-
 .icon_set{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 200px;
     background-color: black;
     padding: 100px 0px 100px 0px;
 }
@@ -222,8 +224,28 @@ footer a{
     text-decoration: none;
     background-color: #16a085;
 }
-.number h3{
+.number h3,.number1 h3{
     margin-left: 50px;
+}
+.numbers{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 200px;
+    margin-left: -350px;
+}
+.number1{
+    margin-top: 80px;
+}
+.number1 a{
+    background-color: #cc0099;
+    display: block;
+    width: 245px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    border-radius: 3px;
+    text-decoration: none;
 }
 
 
