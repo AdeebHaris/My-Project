@@ -49,12 +49,12 @@
 .content_container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 50px;
+    column-gap: 3%;
     margin-top: 100px;
 }
 .information{
     margin: 0px 100px 0px 30px;
-    width: 800px;
+    width: 100%;
 }
 .information h2{
     font-size: 1.3rem;
@@ -157,7 +157,7 @@
     background-color: black;
     padding: 100px 0px 100px 0px;
 }
-.icon ,.up_arrow{
+.icon {
     height: 50px;
     width: 50px;
     justify-content: center;
@@ -263,14 +263,14 @@ footer a{
 .number2:hover{
     color: black;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 1200px) {
     .button {
         font-weight: 600;
         color: #ffffff;
         font-size: 1vw;
         background: #316bff;
         margin: 0 0 0.5rem 0;
-        padding: 0.4rem 2rem;
+        padding: 1px 1px 1px 1px;
         padding-bottom: 0.45rem;
         border-radius: 5px;
         border: 2px solid transparent;
@@ -290,7 +290,7 @@ footer a{
         font-size: 1vw;
         background: #316bff;
         margin: 0 0 0.5rem 0;
-        padding: 0.4rem 2rem;
+        padding: 1px 1px 1px 1px;
         padding-bottom: 0.45rem;
         border-radius: 5px;
         border: 2px solid transparent;
@@ -301,3 +301,26 @@ footer a{
         text-decoration: none;
     }
   }
+  @media (max-width:1200px){
+    .link1 a,.link2 a,.link3 a,.link4 a,.button_container{
+        margin-left: 0px;
+    }
+  }
+  /* @media (max-width:1800px){
+    .content_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 3%;
+        margin-top: 100px;
+    }
+  } */
+  @media (max-width:1500px){
+    .link{
+        position:relative;    
+    }
+    .link1 {
+        position: absolute;
+        left: 200px;
+    }
+    }
+  
