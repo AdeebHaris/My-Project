@@ -306,21 +306,13 @@ footer a{
         margin-left: 0px;
     }
   }
-  /* @media (max-width:1800px){
+   @media (max-width:1800px){
     .content_container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 3%;
         margin-top: 100px;
     }
-  } */
-  @media (max-width:1500px){
-    .link{
-        position:relative;    
-    }
-    .link1 {
-        position: absolute;
-        left: 200px;
-    }
+  }
     }
   
