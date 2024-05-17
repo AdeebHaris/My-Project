@@ -291,3 +291,20 @@ footer a{
     } 
     
   }
+  @media (max-width:1350px){
+    .link1,.link2,.link3,.link4,.button_container{
+        margin-left: 0px;
+        margin-top: 60px;      
+    }
+  }
+  @media (max-width:1350px){
+    .link1 a,.link2 a,.link3 a,.link4 a,.button_container a{
+        font-size: 15px;
+    }
+  }
+  @media (max-width:900px){
+    .title{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+  }
