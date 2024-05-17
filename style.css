@@ -89,8 +89,8 @@
 .link{
     color: #316bff;
     text-decoration: none;
-    font-size: 15px;
-    margin-left: 10px; 
+    font-size: .75vw;
+    margin-left: .05283vw; 
 }
 .link:hover{
     color: #686868;
@@ -111,7 +111,7 @@
     transition: all 0.2s;
     width: 100%;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 2.0833vw;
 }
 .button:hover{
     background-color: white;
@@ -228,7 +228,7 @@ footer a{
 }
 .number a{
     display: block;
-    width: 245px;
+    width: 12.5vw;
     text-align: center;
     color: #ffffff;
     font-size: 1rem;
@@ -252,7 +252,7 @@ footer a{
 .number1 a{
     background-color: #cc0099;
     display: block;
-    width: 245px;
+    width: 12.5vw;
     text-align: center;
     color: #ffffff;
     font-size: 1rem;
@@ -263,5 +263,3 @@ footer a{
 .number2:hover{
     color: black;
 }
-
-
