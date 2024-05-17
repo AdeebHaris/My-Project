@@ -89,7 +89,7 @@
 .link{
     color: #316bff;
     text-decoration: none;
-    font-size: .75vw;
+    font-size: 1vw;
     margin-left: .05283vw; 
 }
 .link:hover{
@@ -263,3 +263,41 @@ footer a{
 .number2:hover{
     color: black;
 }
+@media screen and (max-width: 600px) {
+    .button {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 1vw;
+        background: #316bff;
+        margin: 0 0 0.5rem 0;
+        padding: 0.4rem 2rem;
+        padding-bottom: 0.45rem;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        vertical-align: middle;
+        text-shadow: none;
+        transition: all 0.2s;
+        width: 100%;
+        text-decoration: none;
+        margin-left: 1vw;
+      
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .package {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 1vw;
+        background: #316bff;
+        margin: 0 0 0.5rem 0;
+        padding: 0.4rem 2rem;
+        padding-bottom: 0.45rem;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        vertical-align: middle;
+        text-shadow: none;
+        transition: all 0.2s;
+        width: 100%;
+        text-decoration: none;
+    }
+  }
